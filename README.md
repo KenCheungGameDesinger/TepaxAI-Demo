@@ -1,5 +1,6 @@
 # TourGo
-![[tourgo_cover.jpg]]
+![](./docs/img/tourgo_cover.jpg)
+
 
 Tepax AI, your global travel assistant! Our mission is to **make your travels fulfilling and purposeful**. With advanced artificial intelligence technology, we provide you with **unique travel solutions**. By interacting with our vast user data, our AI models are constantly evolving to provide the latest **personalized services**.
 
@@ -17,14 +18,14 @@ Tepax AI, your global travel assistant! Our mission is to **make your travels fu
 # Introduction
 ## Online Travel Solution Planner
 **`trip-planner`**
-![[tourgo-planner_cover.jpg]]
+![community_cover](./docs/img/tourgo-planner_cover.jpg)
 Design the interface to avoid a text-based format, incorporating a user-friendly interface that **extensively comprehends user preferences** and a flexible interactive graphical editor to enhance user interaction with travel solutions.
 
 
 ## Travel Solution Marketplace
 **`marketplace`**
 TourGo provides a **metaverse platform**, where travel creator interact with other users, earn income through selling virtual products and offering virtual travel experiences, and showcase their work to attract more attention from travelers, thereby increasing their visibility.
-![[marketplace_cover.png]]
+![community_cover](./docs/img/marketplace_cover.png)
 
 ## Traveler Community
 **`tourgo-community`**
