@@ -1,0 +1,258 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_name",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_description",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_discountType",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_discountAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "_validFrom",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_validTo",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_conditions",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_maxUsagePerUser",
+        "type": "uint256"
+      }
+    ],
+    "name": "publishCoupon",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "getCoupon",
+    "outputs": [
+      {
+        "components": {
+          "conditions": {
+            "internalType": "string",
+            "name": "conditions",
+            "type": "string"
+          },
+          "createdBy": {
+            "internalType": "address",
+            "name": "createdBy",
+            "type": "address"
+          },
+          "description": {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          "discountAmount": {
+            "internalType": "uint256",
+            "name": "discountAmount",
+            "type": "uint256"
+          },
+          "discountType": {
+            "internalType": "string",
+            "name": "discountType",
+            "type": "string"
+          },
+          "exists": {
+            "internalType": "bool",
+            "name": "exists",
+            "type": "bool"
+          },
+          "maxUsagePerUser": {
+            "internalType": "uint256",
+            "name": "maxUsagePerUser",
+            "type": "uint256"
+          },
+          "name": {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          "validFrom": {
+            "internalType": "string",
+            "name": "validFrom",
+            "type": "string"
+          },
+          "validTo": {
+            "internalType": "string",
+            "name": "validTo",
+            "type": "string"
+          }
+        },
+        "internalType": "struct CouponContract.Coupon",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "_name",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_description",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_discountType",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_discountAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "_validFrom",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_validTo",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_conditions",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_maxUsagePerUser",
+        "type": "uint256"
+      }
+    ],
+    "name": "updateCoupon",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "deleteCoupon",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "coupons",
+    "outputs": [
+      {
+        "components": {
+          "conditions": {
+            "internalType": "string",
+            "name": "conditions",
+            "type": "string"
+          },
+          "createdBy": {
+            "internalType": "address",
+            "name": "createdBy",
+            "type": "address"
+          },
+          "description": {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          "discountAmount": {
+            "internalType": "uint256",
+            "name": "discountAmount",
+            "type": "uint256"
+          },
+          "discountType": {
+            "internalType": "string",
+            "name": "discountType",
+            "type": "string"
+          },
+          "exists": {
+            "internalType": "bool",
+            "name": "exists",
+            "type": "bool"
+          },
+          "maxUsagePerUser": {
+            "internalType": "uint256",
+            "name": "maxUsagePerUser",
+            "type": "uint256"
+          },
+          "name": {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          "validFrom": {
+            "internalType": "string",
+            "name": "validFrom",
+            "type": "string"
+          },
+          "validTo": {
+            "internalType": "string",
+            "name": "validTo",
+            "type": "string"
+          }
+        },
+        "internalType": "struct CouponContract.Coupon",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

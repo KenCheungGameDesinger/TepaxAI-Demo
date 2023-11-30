@@ -12,7 +12,9 @@ import {
 } from "@/components/ui/card";
 
 import { Link } from "lucide-react";
+import { redirect } from "next/navigation";
 export default function Home() {
+  redirect("marketplace");
   return (
     <main>
       <div>
@@ -20,7 +22,7 @@ export default function Home() {
       </div>
       <Card>
         <div
-          className=" flex 
+          className=" flex
       items-center justify-center "
         >
           <MyCard
@@ -31,7 +33,7 @@ export default function Home() {
           <MyCard img="/img/Taiwan.jpg" location="Taiwan" link=""></MyCard>
         </div>
         <div
-          className=" flex 
+          className=" flex
       items-center justify-center "
         >
           <MyCard img="/img/japan.jpg" location="Japan" link=""></MyCard>
