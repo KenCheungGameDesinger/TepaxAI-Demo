@@ -265,7 +265,9 @@ const Form = () => {
               {isLogin
                 ? "Don't have an account? Sign Up here."
                 : "Already have an account? Login here."}
+
             </Typography>
+            <p style={{color:"red"}}>請確保伺服器正在運行，並在 3001 的port上</p>
           </Box>
         </form>
       )}
